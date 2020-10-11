@@ -1,0 +1,23 @@
+.list-hours {
+  tamaño de fuente : 0.9 rem ;
+  .list-hours-item {
+    borde inferior : desvanecimiento sólido de 1 px  ( $ primario , 0.5 ); 
+    fondo acolchado : .25 rem ;
+    margen inferior : 1 rem ;
+    estilo de fuente : cursiva ;
+    & .today {
+      font-weight : negrita ;
+      color : $ primario ;
+    }
+  }
+  @media ( ancho mínimo : 992 px ) {
+    ancho : 50 % ;
+    tamaño de fuente : 1.1 rem ;
+  }
+}
+
+.address {
+  fuerte {
+    tamaño de fuente : 1.2 rem ;
+  }
+}
